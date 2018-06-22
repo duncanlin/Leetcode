@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LeetCode</name>
+    </assembly>
+    <members>
+        <member name="T:LeetCode.DivideTwoIntegers">
+            <summary>
+            Given two integers dividend and divisor, divide two integers without using multiplication, division and mod operator.
+            </summary>
+        </member>
+        <member name="M:LeetCode.LongestPalindromicSubstring.Reverse(System.String)">
+            <summary>
+            Reverse String
+            </summary>
+            <param name="s">source string</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeetCode.PalindromeNumber">
+            <summary>
+            Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+            </summary>
+        </member>
+        <member name="M:LeetCode.RemoveDuplicatesFromSortedArray.RemoveDuplicates(System.Int32[])">
+            <summary>
+            Remove Duplicates from Sorted Array
+            </summary>
+            <param name="nums">input</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
