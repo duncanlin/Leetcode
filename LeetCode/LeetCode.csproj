@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinaryGap.cs" />
     <Compile Include="DivideTwoIntegers.cs" />
     <Compile Include="ImplementStringStrFunction.cs" />
     <Compile Include="Interger2Roman.cs" />
@@ -57,6 +58,7 @@
     <Compile Include="RemoveDuplicatesFromSortedArray.cs" />
     <Compile Include="ReverseInteger.cs" />
     <Compile Include="Roman2Integer.cs" />
+    <Compile Include="Subsets.cs" />
     <Compile Include="ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -71,17 +71,18 @@ namespace LeetCode
             //var target = new RemoveArrayElement();
             //Console.WriteLine("input is {0}, output is {1}", "[3,2,2,3]", target.RemoveElement(new int[] { 3,2,2,3},3));
             //Console.WriteLine("input is {0}, output is {1}", "[0,1,2,2,3,0,4,2]", target.RemoveElement(new int[] { 0, 1, 2, 2, 3, 0, 4, 2 }, 2));
-            
+
             //var target = new ImplementStringStrFunction();
             //Console.WriteLine("input is {0}, output is {1}", "hello,ll", target.StrStr("hello","ll"));
             //Console.WriteLine("input is {0}, output is {1}", "aaaaaaa,bba", target.StrStr("aaaaaaa", "bba"));
             #endregion
 
 
-            var target = new DivideTwoIntegers();
-            Console.WriteLine("input is {0}, output is {1}", "10,3", target.Divide(10,3));
-            Console.WriteLine("input is {0}, output is {1}", "7,-3", target.Divide(7, -3));
+            //var target = new DivideTwoIntegers();
+            //Console.WriteLine("input is {0}, output is {1}", "10,3", target.Divide(10,3));
+            //Console.WriteLine("input is {0}, output is {1}", "7,-3", target.Divide(7, -3));
 
+         
             Console.Read();
         }
     }
