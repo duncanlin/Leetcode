@@ -82,7 +82,17 @@ namespace LeetCode
             //Console.WriteLine("input is {0}, output is {1}", "10,3", target.Divide(10,3));
             //Console.WriteLine("input is {0}, output is {1}", "7,-3", target.Divide(7, -3));
 
-         
+            //var subset = new Subsets();
+            //Console.WriteLine("input is {0}, output is count = {1}", "[1,2,3]", subset.GetSubsets(new int[] { 1, 2, 3 }).Count);
+
+            //var per = new Permutations();
+            //Console.WriteLine("input is {0}, output is count = {1}", "[1,2,3]", per.Permute(new int[] { 1, 2, 3 }).Count);
+
+            var duplicationArray = new FindAllDuplicatesInArray();
+            Console.WriteLine("input is {0}, output is  {1}", "[4,3,2,7,8,2,3,1]", duplicationArray.FindDuplicates(new int[] { 4, 3, 2, 7, 8, 2, 3, 1 }).Count);
+
+
+
             Console.Read();
         }
     }

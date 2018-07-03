@@ -46,12 +46,14 @@
   <ItemGroup>
     <Compile Include="BinaryGap.cs" />
     <Compile Include="DivideTwoIntegers.cs" />
+    <Compile Include="FindAllDuplicatesInArray.cs" />
     <Compile Include="ImplementStringStrFunction.cs" />
     <Compile Include="Interger2Roman.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="LongestPalindromicSubstring.cs" />
     <Compile Include="MergeTwoSortedLists.cs" />
     <Compile Include="PalindromeNumber.cs" />
+    <Compile Include="Permutations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoveArrayElement.cs" />
