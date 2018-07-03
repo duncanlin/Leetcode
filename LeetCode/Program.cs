@@ -75,8 +75,6 @@ namespace LeetCode
             //var target = new ImplementStringStrFunction();
             //Console.WriteLine("input is {0}, output is {1}", "hello,ll", target.StrStr("hello","ll"));
             //Console.WriteLine("input is {0}, output is {1}", "aaaaaaa,bba", target.StrStr("aaaaaaa", "bba"));
-            #endregion
-
 
             //var target = new DivideTwoIntegers();
             //Console.WriteLine("input is {0}, output is {1}", "10,3", target.Divide(10,3));
@@ -88,9 +86,13 @@ namespace LeetCode
             //var per = new Permutations();
             //Console.WriteLine("input is {0}, output is count = {1}", "[1,2,3]", per.Permute(new int[] { 1, 2, 3 }).Count);
 
-            var duplicationArray = new FindAllDuplicatesInArray();
-            Console.WriteLine("input is {0}, output is  {1}", "[4,3,2,7,8,2,3,1]", duplicationArray.FindDuplicates(new int[] { 4, 3, 2, 7, 8, 2, 3, 1 }).Count);
+            #endregion
 
+            //var duplicationArray = new FindAllDuplicatesInArray();
+            //Console.WriteLine("input is {0}, output is  {1}", "[4,3,2,7,8,2,3,1]", duplicationArray.FindDuplicates(new int[] { 4, 3, 2, 7, 8, 2, 3, 1 }).Count);
+
+            var com = new CombinationSum();
+            Console.WriteLine("input is {0}, output is count =  {1}", "[2,3,6,7] target =7", com.GetCombinationSum(new int[] { 2, 3, 6, 7 }, 7).Count);
 
 
             Console.Read();
