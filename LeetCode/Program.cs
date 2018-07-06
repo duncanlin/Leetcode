@@ -91,10 +91,12 @@ namespace LeetCode
             //var duplicationArray = new FindAllDuplicatesInArray();
             //Console.WriteLine("input is {0}, output is  {1}", "[4,3,2,7,8,2,3,1]", duplicationArray.FindDuplicates(new int[] { 4, 3, 2, 7, 8, 2, 3, 1 }).Count);
 
-            var com = new CombinationSum();
-            Console.WriteLine("input is {0}, output is count =  {1}", "[2,3,6,7] target =7", com.GetCombinationSum(new int[] { 2, 3, 6, 7 }, 7).Count);
+            //var com = new CombinationSum();
+            //Console.WriteLine("input is {0}, output is count =  {1}", "[2,3,6,7] target =7", com.GetCombinationSum(new int[] { 2, 3, 6, 7 }, 7).Count);
 
-
+            var group = new GroupAnagram();
+            Console.WriteLine("input is {0}, output is count =  {1}", "{eat,tea,tan,ate,nat,bat}",
+                group.GroupAnagrams(new string[] { "eat", "tea", "tan", "ate", "nat", "bat" }).Count);
             Console.Read();
         }
     }

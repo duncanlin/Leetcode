@@ -48,6 +48,7 @@
     <Compile Include="CombinationSum.cs" />
     <Compile Include="DivideTwoIntegers.cs" />
     <Compile Include="FindAllDuplicatesInArray.cs" />
+    <Compile Include="GroupAnagram.cs" />
     <Compile Include="ImplementStringStrFunction.cs" />
     <Compile Include="Interger2Roman.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
