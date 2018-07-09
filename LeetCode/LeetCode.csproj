@@ -51,9 +51,12 @@
     <Compile Include="GroupAnagram.cs" />
     <Compile Include="ImplementStringStrFunction.cs" />
     <Compile Include="Interger2Roman.cs" />
+    <Compile Include="LengthOfLastWord.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="LongestPalindromicSubstring.cs" />
+    <Compile Include="MaxSubarray.cs" />
     <Compile Include="MergeTwoSortedLists.cs" />
+    <Compile Include="MyPow.cs" />
     <Compile Include="PalindromeNumber.cs" />
     <Compile Include="Permutations.cs" />
     <Compile Include="Program.cs" />

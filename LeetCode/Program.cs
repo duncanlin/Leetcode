@@ -94,9 +94,22 @@ namespace LeetCode
             //var com = new CombinationSum();
             //Console.WriteLine("input is {0}, output is count =  {1}", "[2,3,6,7] target =7", com.GetCombinationSum(new int[] { 2, 3, 6, 7 }, 7).Count);
 
-            var group = new GroupAnagram();
-            Console.WriteLine("input is {0}, output is count =  {1}", "{eat,tea,tan,ate,nat,bat}",
-                group.GroupAnagrams(new string[] { "eat", "tea", "tan", "ate", "nat", "bat" }).Count);
+            //var group = new GroupAnagram();
+            //Console.WriteLine("input is {0}, output is count =  {1}", "{eat,tea,tan,ate,nat,bat}",
+            //    group.GroupAnagrams(new string[] { "eat", "tea", "tan", "ate", "nat", "bat" }).Count);
+
+            //var pow = new MyPow();
+            //Console.WriteLine("input is {0}, output is {1}", "2^3", pow.GetValue(2, 3));
+            //Console.WriteLine("input is {0}, output is {1}", "2^-2", pow.GetValue(2, -2));
+            //Console.WriteLine("input is {0}, output is {1}", "2.1^3", pow.GetValue(2.1, 3));
+
+            //var maxSubArrary = new MaxSubarray();
+            //Console.WriteLine("input is {0}, ouput is {1}", "[-2,1,-3,4,-1,2,1,-5,4]", 
+            //    maxSubArrary.GetMaxSubArrary(new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 }));
+
+            var len = new LengthOfLastWord();
+            Console.WriteLine("input is {0} , ouptut is {1}", "Hello World!", len.GetLength("Hello World!"));
+
             Console.Read();
         }
     }
