@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinaryGap.cs" />
+    <Compile Include="ClimbingStairs.cs" />
     <Compile Include="CombinationSum.cs" />
     <Compile Include="DivideTwoIntegers.cs" />
     <Compile Include="FindAllDuplicatesInArray.cs" />

@@ -107,8 +107,13 @@ namespace LeetCode
             //Console.WriteLine("input is {0}, ouput is {1}", "[-2,1,-3,4,-1,2,1,-5,4]", 
             //    maxSubArrary.GetMaxSubArrary(new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 }));
 
-            var len = new LengthOfLastWord();
-            Console.WriteLine("input is {0} , ouptut is {1}", "Hello World!", len.GetLength("Hello World!"));
+            //var len = new LengthOfLastWord();
+            //Console.WriteLine("input is {0} , ouptut is {1}", "Hello World!", len.GetLength("Hello World!"));
+
+            var stair = new Stair();
+            Console.WriteLine("input is {0}, output is {1}", "2", stair.ClimbStairs(2));
+            Console.WriteLine("input is {0}, output is {1}", "3", stair.ClimbStairs(3));
+            Console.WriteLine("input is {0}, output is {1}", "1000000", stair.ClimbStairs(1000000));
 
             Console.Read();
         }
