@@ -66,6 +66,7 @@
     <Compile Include="RemoveArrayElement.cs" />
     <Compile Include="RemoveDuplicatesFromSortedArray.cs" />
     <Compile Include="ReverseInteger.cs" />
+    <Compile Include="RevLinkedList.cs" />
     <Compile Include="Roman2Integer.cs" />
     <Compile Include="SameTree.cs" />
     <Compile Include="Subsets.cs" />

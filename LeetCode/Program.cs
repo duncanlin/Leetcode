@@ -115,14 +115,23 @@ namespace LeetCode
             //Console.WriteLine("input is {0}, output is {1}", "3", stair.ClimbStairs(3));
             //Console.WriteLine("input is {0}, output is {1}", "1000000", stair.ClimbStairs(1000000));
 
-            var tree = new BinaryTreeLevelOrderTraversal.TreeNode(3);
-            tree.right = new BinaryTreeLevelOrderTraversal.TreeNode(20);
-            tree.right.right = new BinaryTreeLevelOrderTraversal.TreeNode(7);
-            tree.right.left = new BinaryTreeLevelOrderTraversal.TreeNode(15);
-            tree.left = new BinaryTreeLevelOrderTraversal.TreeNode(9);
+            //var tree = new BinaryTreeLevelOrderTraversal.TreeNode(3);
+            //tree.right = new BinaryTreeLevelOrderTraversal.TreeNode(20);
+            //tree.right.right = new BinaryTreeLevelOrderTraversal.TreeNode(7);
+            //tree.right.left = new BinaryTreeLevelOrderTraversal.TreeNode(15);
+            //tree.left = new BinaryTreeLevelOrderTraversal.TreeNode(9);
 
-            var binaryTree = new BinaryTreeLevelOrderTraversal();
-            Console.WriteLine("input is {0},output is {1}", "[3,9,20,null,null,15,7]", binaryTree.LevelOrder(tree).Count);
+            //var binaryTree = new BinaryTreeLevelOrderTraversal();
+            //Console.WriteLine("input is {0},output is {1}", "[3,9,20,null,null,15,7]", binaryTree.LevelOrder(tree).Count);
+
+
+            var root = new RevLinkedList.ListNode(1);
+            root.next = new RevLinkedList.ListNode(2);
+            root.next.next = new RevLinkedList.ListNode(3);
+            root.next.next.next = new RevLinkedList.ListNode(4);
+            root.next.next.next.next = new RevLinkedList.ListNode(5);
+            var rev = new RevLinkedList();
+            Console.WriteLine("root node value is {0}, old root value is {1}", rev.ReverseList(root).val,root.val);
             Console.Read();
         }
     }
