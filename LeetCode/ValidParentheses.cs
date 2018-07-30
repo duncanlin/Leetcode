@@ -15,7 +15,7 @@ namespace LeetCode
             Dictionary<string, string> characters = new Dictionary<string, string>();
             characters.Add("(", ")");
             characters.Add("[", "]");
-            characters.Add("{","}");
+            characters.Add("{", "}");
 
             string anotherString = "";
             for (int i = 0; i < s.Length; i++)
@@ -26,7 +26,7 @@ namespace LeetCode
                 }
                 else
                 {
-                    if (s.IndexOf(anotherString) < 0 )
+                    if (s.IndexOf(anotherString) < 0)
                     {
                         return false;
                     }
@@ -34,6 +34,31 @@ namespace LeetCode
                 }
             }
             return true;
+        }
+
+        public int IsValid2(string S)
+        {
+            Stack<Char> ret = new Stack<Char>();
+            foreach (var item in S)
+            {
+                if (item == Char.Parse("("))
+                {
+                    ret.Push(Char.Parse(")"));
+                }
+                else if (item == Char.Parse("["))
+                {
+                    ret.Push(Char.Parse("]"));
+                }
+                else if (item == Char.Parse("{"))
+                {
+                    ret.Push(Char.Parse("}"));
+                }
+                else if (ret.Count == 0 || ret.Pop() != item)
+                {
+                    return 0;
+                }
+            }
+            return ret.Count == 0 ? 1 : 0;
         }
     }
 }
