@@ -47,6 +47,7 @@
     <Compile Include="BinaryGap.cs" />
     <Compile Include="BinaryTreeLevelOrderTraversal.cs" />
     <Compile Include="ClimbingStairs.cs" />
+    <Compile Include="Codity.cs" />
     <Compile Include="CombinationSum.cs" />
     <Compile Include="DivideTwoIntegers.cs" />
     <Compile Include="FindAllDuplicatesInArray.cs" />

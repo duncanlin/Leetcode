@@ -125,16 +125,13 @@ namespace LeetCode
             //Console.WriteLine("input is {0},output is {1}", "[3,9,20,null,null,15,7]", binaryTree.LevelOrder(tree).Count);
 
 
-            //var root = new RevLinkedList.ListNode(1);
-            //root.next = new RevLinkedList.ListNode(2);
-            //root.next.next = new RevLinkedList.ListNode(3);
-            //root.next.next.next = new RevLinkedList.ListNode(4);
-            //root.next.next.next.next = new RevLinkedList.ListNode(5);
-            //var rev = new RevLinkedList();
-            //Console.WriteLine("root node value is {0}, old root value is {1}", rev.ReverseList(root).val,root.val);
-            var vp = new ValidParentheses();
-            Console.WriteLine( vp.IsValid2("{[()()]}"));
-
+            var root = new RevLinkedList.ListNode(1);
+            root.next = new RevLinkedList.ListNode(2);
+            root.next.next = new RevLinkedList.ListNode(3);
+            root.next.next.next = new RevLinkedList.ListNode(4);
+            root.next.next.next.next = new RevLinkedList.ListNode(5);
+            var rev = new RevLinkedList();
+            Console.WriteLine("root node value is {0}, old root value is {1}", rev.ReverseList(root).val, root.val);
             Console.Read();
         }
     }
