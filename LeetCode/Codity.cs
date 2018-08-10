@@ -19,19 +19,19 @@ namespace LeetCode
             for (int i = 0; i < A.Length; i++)
             {
                 //out of range
-                if (A[i]<1 || A[i] > A.Length)
+                if (A[i] < 1 || A[i] > A.Length)
                 {
                     return 0;
                 }
                 // had meet before
-                if (temp[A[i]-1] == 1)
+                if (temp[A[i] - 1] == 1)
                 {
                     return 0;
                 }
 
-                if (temp[A[i]-1] != 1)
+                if (temp[A[i] - 1] != 1)
                 {
-                    temp[A[i]-1] = 1;
+                    temp[A[i] - 1] = 1;
                 }
             }
             return 1;
@@ -47,14 +47,14 @@ namespace LeetCode
             int total = 0;
             for (int i = 0; i < A.Length; i++)
             {
-                if (A[i]==0)
+                if (A[i] == 0)
                 {
                     count++;
                 }
                 else
                 {
                     total = total + count;
-                    
+
                 }
             }
             if (total >= 1000000000)
@@ -97,11 +97,11 @@ namespace LeetCode
             //https://app.codility.com/programmers/lessons/6-sorting/max_product_of_three/
 
             Array.Sort(A);
-            if (A.Length<3)
+            if (A.Length < 3)
             {
                 return 0;
             }
-            if (A[0]<0 && A[1]<0)
+            if (A[0] < 0 && A[1] < 0)
             {
                 if (A[0] * A[1] * A[A.Length - 1] > A[A.Length - 1] * A[A.Length - 2] * A[A.Length - 3])
                 {
@@ -109,8 +109,8 @@ namespace LeetCode
 
                 }
             }
-            return A[A.Length - 1]*A[A.Length-2]*A[A.Length-3];
-          
+            return A[A.Length - 1] * A[A.Length - 2] * A[A.Length - 3];
+
         }
 
 
@@ -121,7 +121,7 @@ namespace LeetCode
             //https://app.codility.com/programmers/lessons/7-stacks_and_queues/nesting/
 
 
-            if (S.Trim() =="")
+            if (S.Trim() == "")
             {
                 return 1;
             }
@@ -130,7 +130,7 @@ namespace LeetCode
             {
                 if (item.ToString() == "(")
                 {
-                    ret ++;
+                    ret++;
                 }
                 else
                 {
@@ -159,6 +159,28 @@ namespace LeetCode
 
             var ret = A.Aggregate((x, y) => x ^ y);
             return ret;
+        }
+
+        public int solution7(int[] A)
+        {
+            if (A.Length == 0)
+            {
+                return 0;
+            }
+            int[] temp = new int[A.Length+1];
+            for (int i = 0; i < A.Length; i++)
+            {
+                temp[A[i]-1] = 1;
+            }
+
+            for (int i = 0; i < temp.Length; i++)
+            {
+                if (temp[i]==0)
+                {
+                    return i+1;
+                }
+            }
+            return 0;
         }
     }
 }
